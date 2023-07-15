@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98670495779",
+    "project_id": "myfamily-a686f",
+    "storage_bucket": "myfamily-a686f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98670495779:android:8979de6aa241af5e35c996",
+        "android_client_info": {
+          "package_name": "com.nityam.myfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98670495779-h650c9e3stmmfs8tc5srtec9an2g5qus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXPjScRXAiqCz9gdtIFBj7Z5mT1vZc5v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98670495779-h650c9e3stmmfs8tc5srtec9an2g5qus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
