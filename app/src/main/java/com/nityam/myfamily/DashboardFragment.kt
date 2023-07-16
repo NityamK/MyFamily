@@ -24,8 +24,6 @@ class DashboardFragment : Fragment() {
 
         @JvmStatic
         fun newInstance() =
-            DashboardFragment().apply {
-                arguments = Bundle()
-            }
+            DashboardFragment()
     }
 }

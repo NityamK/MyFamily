@@ -22,10 +22,6 @@ class HomeFragment : Fragment() {
     lateinit var inviteAdapter: InviteAdapter
     lateinit var mContext: Context
     private val listContacts: ArrayList<ContactModel> = ArrayList()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -47,7 +43,7 @@ class HomeFragment : Fragment() {
 
         Log.d("FetchContact89", "onViewCreated: ")
 
-        val listMembers = listOf<MemberModel>(
+        val listMembers = listOf(
             MemberModel(
                 "Lokesh",
                 "9th buildind, 2nd floor, maldiv road, manali 9th buildind, 2nd floor",
